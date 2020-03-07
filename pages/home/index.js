@@ -7,6 +7,7 @@ import InputText from "../../components/inputText/index";
 import Coffee from "../../components/coffee/index";
 import Post from "../../components/post/index";
 import Modal from "../../components/modal/index";
+import Qr from "../../components/qr/index";
 
 import style from "./style.scss";
 
@@ -95,6 +96,7 @@ class Home extends React.Component {
             <>
                 <Header />
                 <InputText />
+                <Qr />
 
                 <h3 className={style.titleDescription}>Descripción</h3>
 
